@@ -69,15 +69,15 @@ class boot extends Phaser.Scene {
             }
             */
 		// load
-        this.load.image("koshek","/assets/koshek.png");
-		this.load.image("dora","/assets/Dora-or8.png");
-        this.load.image("stone","/assets/stone.png");
-        this.load.spritesheet("monster0","/assets/monster.png",{
+        this.load.image("koshek","assets/koshek.png");
+		this.load.image("dora","assets/Dora-or8.png");
+        this.load.image("stone","assets/stone.png");
+        this.load.spritesheet("monster0","assets/monster.png",{
             frameWidth: 128,
             frameHeight: 128
         })
-        this.load.aseprite('monster2', '/assets/monster2.png',"/public/assets/monster2.json");
-            this.load.image("bubchat","/assets/bubchat.png");
+        this.load.aseprite('monster2', 'assets/monster2.png',"assets/monster2.json");
+            this.load.image("bubchat","assets/bubchat.png");
 	}
 
 	create() {
